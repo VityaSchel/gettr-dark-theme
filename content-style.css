@@ -1,0 +1,85 @@
+body {
+  background-color: #000 !important;
+  --theme-light-color: #000 !important;
+  --input-background-color: #121212 !important;
+}
+
+.jss9,
+.jss7,
+.popup-content,
+.jss90:hover,
+.jss23 .result-list-item.selected,
+.post-composer,
+.jss159:hover,
+.jss428,
+.jss424,
+.jss426,
+.jss50,
+.jss54,
+.jss48 {
+  background-color: #000 !important;
+}
+
+.post-detail,
+.comment-feed,
+.jss23,
+.sidebar-section,
+.jss66,
+.jss1312,
+.jss85:disabled
+.icon.cancel,
+.jss1437,
+.jss1657,
+.jss81,
+.jss197,
+.jss171,
+.MuiButton-root.Mui-disabled,
+.jss23 .result-list-item.withDivider::after,
+.MuiButtonBase-root.Mui-selected,
+.MuiButtonBase-root:hover,
+.jss133,
+.jss173,
+.timeline,
+.section-content a:hover {
+  background-color: #121212 !important;
+}
+
+.jss50,
+.jss2,
+.jss9,
+.jss98,
+.jss218,
+[class~=MuiTypography-h1],
+input,
+.jss1312,
+.title,
+.jss81,
+.jss208,
+.MuiTab-wrapper,
+.jss50 a,
+.jss166,
+[name=timeline-handler] a,
+.user-avatar span,
+.post-detail,
+.post-detail span {
+  color: #fff !important;
+}
+
+path[fill="#010101"],
+path[fill="#000000"],
+.MuiTab-wrapper path {
+  fill: #fff !important;
+}
+
+.jss22.focus .search-icon svg path[fill=black] {
+  stroke: #fff !important;
+}
+
+.jss22 {
+  background-color: #1e1e1e !important;
+}
+
+.comment-feed,
+.jss197 {
+  border: 1px solid black !important;
+}
