@@ -16,7 +16,16 @@ body {
 .jss426,
 .jss50,
 .jss54,
-.jss48 {
+.jss48,
+.comment,
+.backTitle + div > div:nth-child(2),
+.backTitle + div,
+.backTitle ~ div .MuiButtonBase-root.Mui-selected,
+.MuiDialogTitle-root,
+.MuiDialogContent-root,
+.MuiPaper-root,
+.backTitle,
+div[role="tabpanel"] {
   background-color: #000 !important;
 }
 
@@ -24,7 +33,6 @@ body {
 .comment-feed,
 .jss23,
 .sidebar-section,
-.jss66,
 .jss1312,
 .jss85:disabled
 .icon.cancel,
@@ -37,10 +45,10 @@ body {
 .jss23 .result-list-item.withDivider::after,
 .MuiButtonBase-root.Mui-selected,
 .MuiButtonBase-root:hover,
-.jss133,
 .jss173,
 .timeline,
-.section-content a:hover {
+.profile,
+.post-preview-box div[contenteditable=true] {
   background-color: #121212 !important;
 }
 
@@ -61,8 +69,23 @@ input,
 [name=timeline-handler] a,
 .user-avatar span,
 .post-detail,
-.post-detail span {
+.post-detail span,
+[name=detail-handler],
+.text-content,
+.section-content a[href] div,
+.comment-box > div > div[contenteditable=true][style]:nth-child(1),
+.post-preview-box div[contenteditable=true],
+.backTitle + div > div:nth-child(2) > div:nth-child(4) > div:nth-child(1),
+.MuiDialogTitle-root {
   color: #fff !important;
+}
+
+.wrapper > div {
+  color: #6E7187 !important;
+}
+
+.section-content a:hover {
+  background-color: #6E7187 !important;
 }
 
 path[fill="#010101"],
@@ -80,6 +103,7 @@ path[fill="#000000"],
 }
 
 .comment-feed,
-.jss197 {
+.jss197,
+.comment {
   border: 1px solid black !important;
 }
