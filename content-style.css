@@ -107,3 +107,18 @@ path[fill="#000000"],
 .comment {
   border: 1px solid black !important;
 }
+
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper > div {
+	border: 0 solid black !important;
+	background-color: #000 !important;
+
+}
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper {
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px 0px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px !important;
+	border-radius: 16px !important;
+	background-color: #000 !important;
+}
+
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper > div div, span {
+	color: rgb(217,217,217) !important;
+}
