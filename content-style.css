@@ -98,12 +98,28 @@ path[fill="#000000"],
   stroke: #fff !important;
 }
 
-.jss22 {
-  background-color: #1e1e1e !important;
-}
-
 .comment-feed,
 .jss197,
 .comment {
   border: 1px solid black !important;
+}
+
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper > div {
+	border: 0 solid black !important;
+	background-color: #000 !important;
+
+}
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper {
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px 0px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px !important;
+	border-radius: 16px !important;
+	background-color: #000 !important;
+}
+
+#mouse-over-popover > div.MuiPaper-root.MuiPopover-paper > div div, span {
+	color: rgb(217,217,217) !important;
+}
+
+/*Search Bar*/
+div#root > div > div > div:nth-child(2) > div > div > div > div > form {
+    background-color: rgb(32, 35, 39) !important;
 }
